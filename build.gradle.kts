@@ -19,6 +19,7 @@ application {
     mainClass.set("MainKt")
 }
 
+
 dependencies {
     testImplementation(kotlin("test-junit5"))
     implementation(group = "tools.aqua", name = "bgw-gui", version = "0.7.3")
